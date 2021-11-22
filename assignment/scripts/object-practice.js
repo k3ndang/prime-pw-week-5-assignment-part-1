@@ -45,7 +45,7 @@ console.log(me.favThreeFoods[2]);
 */
 console.log(`Shoes count is ${me.shoeCount}`);
 me.shoeCount = 7;
-console.log('Bought a new pair of shoes!!', me.shoeCount);
+console.log('New shoes count after buying a new pair!!', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -53,3 +53,6 @@ console.log('Bought a new pair of shoes!!', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me['favoriteColor'] = ['black', 'blue', 'green'];
+me.favoriteColor = ['black', 'blue', 'green'];
+console.log(me);
