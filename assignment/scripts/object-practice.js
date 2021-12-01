@@ -37,7 +37,7 @@ console.log(me.favThreeFoods[0]);
 
 // my last favorite food
 console.log(me.favThreeFoods[2]);
-
+console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
   - Guess what?! You just got a new pair of shoes!!!
